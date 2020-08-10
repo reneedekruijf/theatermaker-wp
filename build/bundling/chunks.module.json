@@ -1,48 +1,17 @@
 {
-  "errors": [
-    "./packages/theatermaker-theme/src/theme-files/post.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open '/mnt/72A6260DA625D301/webdesign-projecten/04B-theatermaker-wp/packages/theatermaker-theme/src/theme-files/post.js'\n @ ./packages/theatermaker-theme/src/theme-files/index.js 1:424-449 1:2848-2852\n @ ./packages/theatermaker-theme/src/index.js\n @ ./build/bundling/entry-points/theatermaker/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/theatermaker/client.ts"
-  ],
+  "errors": [],
   "warnings": [],
   "version": "4.43.0",
-  "hash": "57d9c83885db7f500fbb",
+  "hash": "0e1249748f52cb9433a4",
   "publicPath": "/static/",
   "outputPath": "/mnt/72A6260DA625D301/webdesign-projecten/04B-theatermaker-wp/build/static",
   "assetsByChunkName": {
-    "theatermaker": [
-      "theatermaker.module.js",
-      "theatermaker.f96f0250d8d7fdb4fd1b.hot-update.js"
-    ]
+    "theatermaker": "theatermaker.module.js"
   },
   "assets": [
     {
-      "name": "f96f0250d8d7fdb4fd1b.hot-update.json",
-      "size": 54,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "theatermaker.f96f0250d8d7fdb4fd1b.hot-update.js",
-      "size": 1004,
-      "chunks": [
-        "theatermaker"
-      ],
-      "chunkNames": [
-        "theatermaker"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "theatermaker.module.js",
-      "size": 4780579,
+      "size": 4783835,
       "chunks": [
         "theatermaker"
       ],
@@ -60,8 +29,7 @@
         "theatermaker"
       ],
       "assets": [
-        "theatermaker.module.js",
-        "theatermaker.f96f0250d8d7fdb4fd1b.hot-update.js"
+        "theatermaker.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -73,8 +41,7 @@
         "theatermaker"
       ],
       "assets": [
-        "theatermaker.module.js",
-        "theatermaker.f96f0250d8d7fdb4fd1b.hot-update.js"
+        "theatermaker.module.js"
       ],
       "children": {},
       "childAssets": {}
